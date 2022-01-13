@@ -160,7 +160,10 @@ html {
   .testimonials-grid {
     grid-template-areas:
     'one one two five '
-    'three four four five'
+    'three four four five';
+
+    max-width: 1200px;
+    margin: auto;
   }
 
   
